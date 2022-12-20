@@ -356,11 +356,11 @@ can use the macro to save us from writing this code out by hand.
 
 Here's the SQL that Active Record generates for this query:
 
-```sql
-SELECT "reviews".*
-FROM "reviews"
-WHERE "reviews"."game_id" = 1
-```
+  ```sql
+  SELECT "reviews".*
+  FROM "reviews"
+  WHERE "reviews"."game_id" = 1
+  ```
 
 Once again, we're using the same primary key/foreign key relationship between
 these two tables to establish this connection.
